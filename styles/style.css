@@ -119,7 +119,7 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
     margin-right: auto;
  }
 
- section.left {
+section.left {
     clear: left;
     float: left;
     width: 30%;
@@ -135,16 +135,36 @@ section.right {
     margin: auto;
 }
 
+section.wordRight {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    padding: 5rem 2rem;
+}
+
+section.imageLeft {
+    clear: left;
+    float: left;
+    width: 40%;
+    padding: 20px 0px;
+}
+
 section.wordLeft {
     clear: left;
     float: left;
     width: 60%;
     padding: 20px;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    padding: 5rem 2rem;
 }
 
 section.imageRight {
     float: left;
-    width: 30%;
+    width: 40%;
     padding: 20px;
     margin: auto;
 }
