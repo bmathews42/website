@@ -53,8 +53,8 @@ nav#horizontalNavigation li {
 
  h1#nameTop {
     font-family: rubik, Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 30px;
-    font-size: 5rem;
+    letter-spacing: 20px;
+    font-size: 10vw;
     padding: 55px 5px;
     text-align: center;
  }
