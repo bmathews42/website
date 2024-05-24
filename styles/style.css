@@ -135,6 +135,20 @@ section.right {
     margin: auto;
 }
 
+section.wordLeft {
+    clear: left;
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+
+section.imageRight {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    margin: auto;
+}
+
 section > h1 {
     line-height: 1.2em;
     text-shadow: rgb(200, 200, 200) 3px 3px 10px;
