@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+/*
+
+My website stylesheet
+
+author: Broc Mathews
+Date:   4 Oct 2022
+
+*/
+
+@font-face {
+    font-family: rubik;
+    src: url(../font/Rubik/Rubik-VariableFont_wght.ttf) format('truetype');
+}
+
+html {
+    font-family: helvetica, arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c6e3f7;
+    box-shadow: rgb(190, 219, 238) 15px 0px 25px,
+        rgb(190, 219, 238) -15px 0px 25px;
+}
+
+/* Horizontal Navigation Styles/header */
+
+header {
+    display: block;
+    background-color: white;
+}
+
+body > header > nav#horizontalNavigation li {
+    width: 25%;
+    background-color: white;
+ }
+
+nav#horizontalNavigation li {
+    display: block;
+    float: left;
+ }
+ 
+ nav#horizontalNavigation a {
+    display: block;
+    text-align: center;
+ }
+
+ /* headers */
+
+ h1#nameTop {
+    font-family: rubik, Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 30px;
+    font-size: 5em;
+    padding: 55px 5px;
+    text-align: center;
+ }
+
+/* links */
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active {
+    color: white;
+    background-color: black;
+ }
+
+
+ /*main page*/
+
+ section {
+    padding: 10px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ section.left {
+    clear: left;
+    float: left;
+    width: 30%;
+    text-align: center;
+    font-size: 2.5em;
+    padding: 20px 0px;
+}
+
+section.right {
+    float: left;
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+}
+
+section > h1 {
+    line-height: 1.2em;
+    text-shadow: rgb(200, 200, 200) 3px 3px 10px;
+}
+
+section#selected {
+    border: solid 2px black;
+}
+
+body > p {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+/* job lists */
+
+ul.sub-list {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+ul.job {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+/*headings*/
+
+body > h1 {
+    text-align: center;
+    padding: 60px 0px 40px 0px;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.8em;
+    padding-bottom: 5px;
+    line-height: 1.2em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+/*figures*/
+
+figure {
+    margin: auto;
+    width: 80%;
+}
+
+figure#me {
+    border-style: none;
+    margin: 20px auto 0px;
+    width: 35%;
+    background-color: transparent;
+    position: relative;
+}
+ 
+ figure img {
+    display: block;
+    width: 100%;
+ }
+
+ figure#me img {
+    width: 100%;
+    border-radius: 110px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+/*footer*/
+
+footer {
+    clear: left;
+    text-align: center;
+    background-color: white;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+footer::after {
+    clear: both;
+    content: "";
+    display: table;
+ }
+
+ /*table*/
+
+ table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px double black;
+    border-collapse: collapse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table th, table td {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: text-top;
+    padding: 8px;
+}
+
+table th {
+    font-size: 1.2em;
+}
+
+col.group {
+    width: 10%;
+}
+
+col.description {
+    width: 70%;
+}
+
+/*contact form*/
+
+fieldset {
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px double black;
+}
+
+fieldset#innerField {
+    width: 70%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+legend {
+    text-align: left;
+}
+
+fieldset > div {
+    padding: 10px;
+}
+
+textarea {
+    margin: 10px;
+    height: 200px;
+    width: 95%;
+  }
+
+input#name:focus:valid, input#phone:focus:valid, input#email:focus:valid {
+  background-color: rgb(220, 255, 220);
+}
+
+input#name:focus:invalid, input#phone:focus:invalid, input#email:focus:invalid {
+  background-color: rgb(255, 232, 233);
+}
+
+div#buttons {
+    text-align: center;
+}
+
+a.download-button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+a.download-button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+#download-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    align-items: center;
+}
