@@ -63,8 +63,8 @@ h1#nameTop {
 @media (max-width: 600px) {
     h1#nameTop {
         letter-spacing: 2vw;
-        font-size: 12vw;
-        padding: 10vw 2vw;
+        font-size: 6vw;
+        padding: 2vw 2vw;
     }
 }
 
