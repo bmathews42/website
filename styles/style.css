@@ -135,7 +135,7 @@ section.right {
     margin: auto;
 }
 
-section.wordRight {
+.wordRight {
     float: left;
     width: 60%;
     padding: 20px;
@@ -145,14 +145,14 @@ section.wordRight {
     padding: 5rem 2rem;
 }
 
-section.imageLeft {
+.imageLeft {
     clear: left;
     float: left;
     width: 40%;
     padding: 20px 0px;
 }
 
-section.wordLeft {
+.wordLeft {
     clear: left;
     float: left;
     width: 60%;
@@ -162,7 +162,7 @@ section.wordLeft {
     padding: 5rem 2rem;
 }
 
-section.imageRight {
+.imageRight {
     float: left;
     width: 40%;
     padding: 20px;

@@ -6,6 +6,8 @@
             Date:   4 Oct 2022
         -->
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Broc Mathews' portfolio showcasing personal and school projects.">
         <title>Broc Mathews</title>
         <link rel="stylesheet" href="styles/reset.css">
         <link rel="stylesheet" href="styles/style.css">
@@ -22,84 +24,85 @@
                 </ul>
             </nav>
         </header>
-        <h1>Personal Projects</h1>
-        <section class="wordLeft">
-            <p>
-                The vinyl tracking system is the first personal project I have completed. My main goal
-                was to demonstrate the new .application development skills I had learned while implementing
-                a few new skills as well. The pages are written in HTML. I used bootstrap for the CSS
-                stylesheet. The data is all stored in mySQL. This was my first time implementing an
-                API into an application. I used last.fm in order to get the cover art for each album along 
-                with the album information for the profile pages. Through this process I learned how to 
-                efficiently traverse data in JSON form while utilizing REST API.
-            </p>
-            <a href="https://github.com/bmathews42/vinyl_tracker.git">https://github.com/bmathews42/vinyl_tracker.git</a>
-        </section>
-        <section class="imageRight">
-            <figure>
-                <img src="images/vinyl.png" alt="Image of vinyl tracking system">
-            </figure>
-        </section>
-        <h1>School Projects</h1>
-        <section class="imageLeft">
-            <figure>
-                <img src="images/campReservation.JPG" alt="Image of camp reservation website">
-            </figure>
-        </section>
-        <section class="wordRight">
-            <p>
-                This camp reservation website was created for my web development with .NET class. 
-                It was a group project that had little to no instruction from the 
-                professor. We were given a "customer" who had requirements and 
-                we as a group had to decide how to approach creating it. It was a 
-                great learning experience. We used the MEAN web stack  (MySQL, 
-                Express.js, AngularJS, and Node.js) and attempted 
-                to utilize an AGILE approach to creating it. The main features of this 
-                web app are creating and managing an account, creating and managing 
-                reservations, reservation management by an admin, and a simulated 
-                purchasing enviroment.
-            </p>
-        </section>
-        <section class="wordLeft">
-            <p>
-                The banking project I completed was done in a similar approach to 
-                the camp reservation project, however it was a solo project and 
-                more lead by my professor. He provided the requirements and we 
-                had to build it from scratch. It was a great opportunity to strengthen 
-                my skills in both frontend, backend, and database development. The main 
-                features in this application are creating an account, depositing money, 
-                transfering money, admin management, and employee management.
-            </p>
-        </section>
-        <section class="imageRight">
-            <figure>
-                <img src="images/banking.jpg" alt="Image of banking website">
-            </figure>
-        </section>
-        <section class="imageLeft">
-            <figure>
-                <img src="images/dogFeeder.jpg" alt="Image of Dog Feeder IoT">
-            </figure>
-        </section>
-        <section class="wordRight">
-            <p>
-                This project was for my The Internet of Things class. In this class we learned 
-                about IoT devices and the different practical uses. Throughout 
-                the course we created different guided projects in order 
-                to learn the capabilities of our arduino board. We utilized tools 
-                such as a moisture sensor, a motion sensor, and the sensors built 
-                into our IoT arduino board. At the end of the semester we were 
-                given the freedom to create whatever we could think of. I decided 
-                to create a dog feeder. The arduino board was connected to a 
-                cardboard box and utilized the motion sensor, moisture sensor, 
-                and a small motor. The motion sensor tracked interation between 
-                the system and the dog. The moisture sensor tracked whether 
-                or not the water bowl was full. The motor was used to open 
-                and close a small hole at the bottom that would allow dog food 
-                to flow out on demand.
-            </p>
-        </section>
+        <main>
+            <h1 style="text-align: center; font-size: 2.5em; padding: 1em;">Personal Projects</h1>
+            <article class="wordLeft">
+                <p>
+                    The vinyl tracking system is the first personal project I have completed. My main goal
+                    was to demonstrate the new application development skills I had learned while implementing
+                    a few new skills as well. The pages are written in HTML. I used Bootstrap for the CSS
+                    stylesheet. The data is all stored in mySQL. This was my first time implementing an
+                    API into an application. I used last.fm in order to get the cover art for each album along 
+                    with the album information for the profile pages. Through this process I learned how to 
+                    efficiently traverse data in JSON form while utilizing REST API.
+                </p>
+                <a href="https://github.com/bmathews42/vinyl_tracker.git">GitHub Repository</a>
+            </article>
+            <section class="imageRight">
+                <figure>
+                    <img src="images/vinyl.png" alt="Vinyl tracking system interface">
+                </figure>
+            </section>
+            <h1 style="text-align: center; clear: both; font-size: 2.5em; padding: 1em;">School Projects</h1>
+            <article class="imageLeft">
+                <figure>
+                    <img src="images/campReservation.JPG" alt="Camp reservation website interface">
+                </figure>
+            </article>
+            <article class="wordRight">
+                <p>
+                    This camp reservation website was created for my web development with .NET class. 
+                    It was a group project that had little to no instruction from the 
+                    professor. We were given a "customer" who had requirements and 
+                    we as a group had to decide how to approach creating it. It was a 
+                    great learning experience. We used the MEAN web stack (MySQL, 
+                    Express.js, AngularJS, and Node.js) and attempted 
+                    to utilize an AGILE approach to creating it. The main features of this 
+                    web app are creating and managing an account, creating and managing 
+                    reservations, reservation management by an admin, and a simulated 
+                    purchasing environment.
+                </p>
+            </article>
+            <article class="wordLeft">
+                <p>
+                    The banking project I completed was done in a similar approach to 
+                    the camp reservation project, however it was a solo project and 
+                    more lead by my professor. He provided the requirements and we 
+                    had to build it from scratch. It was a great opportunity to strengthen 
+                    my skills in both frontend, backend, and database development. The main 
+                    features in this application are creating an account, depositing money, 
+                    transferring money, admin management, and employee management.
+                </p>
+            </article>
+            <section class="imageRight">
+                <figure>
+                    <img src="images/banking.jpg" alt="Banking website interface">
+                </figure>
+            </section>
+            <article class="imageLeft">
+                <figure>
+                    <img src="images/dogFeeder.jpg" alt="Dog Feeder IoT project setup">
+                </figure>
+            </article>
+            <article class="wordRight">
+                <p>
+                    This project was for my The Internet of Things class. In this class we learned 
+                    about IoT devices and the different practical uses. Throughout 
+                    the course we created different guided projects in order 
+                    to learn the capabilities of our Arduino board. We utilized tools 
+                    such as a moisture sensor, a motion sensor, and the sensors built 
+                    into our IoT Arduino board. At the end of the semester we were 
+                    given the freedom to create whatever we could think of. I decided 
+                    to create a dog feeder. The Arduino board was connected to a 
+                    cardboard box and utilized the motion sensor, moisture sensor, 
+                    and a small motor. The motion sensor tracked interaction between 
+                    the system and the dog. The moisture sensor tracked whether 
+                    or not the water bowl was full. The motor was used to open 
+                    and close a small hole at the bottom that would allow dog food 
+                    to flow out on demand.
+                </p>
+            </article>
+        </main>
         <footer>Broc Mathews | Ogden, UT</footer>
     </body>
-    
 </html>
