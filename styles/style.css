@@ -364,3 +364,17 @@ a.download-button:hover {
 p {
     align-items: center;
 }
+
+.link-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-container a {
+    margin: 0 10px;
+}
+
+.link-container a:link {
+    margin: 0 10px;
+    text-decoration: underline;
+}
